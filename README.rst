@@ -1,4 +1,4 @@
 ====================
-python_binance_async
+python_binance_x
 ====================
-A simple python wrapper for binance api that supports asynchronous requests using grequests.
+A Simple and fast api wrapper for binance exchange.
