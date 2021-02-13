@@ -9,8 +9,8 @@ class Request:
         self.url = url
         self.headers = headers
         self.body = body
-        self._parse_url(url)
         self._verify_method()
+        self._parse_url(url)
 
     def _verify_method(self):
         if self.method not in SUPPORTED_METHODS:
